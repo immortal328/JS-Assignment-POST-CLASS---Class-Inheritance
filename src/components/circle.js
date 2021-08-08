@@ -1,7 +1,7 @@
 // import using require
 var shape = require('./shape.js');
 // declare class
-module.exports=class Circle extends shape{
+module.exports = class Circle extends shape{
  constructor(...props){
   super(...props); 
  }
