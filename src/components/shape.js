@@ -1,21 +1,16 @@
 // declare class
 
-class Shape{
-    
-  constructor(color){
-    this.color = color;
-  }
+module.exports = class Shape{
+    constructor(color){
+       this.color=color===undefined?"blue":color;
+    }
   
-  const drawShape = ()=>{
-    
+  drawShape(){
+    console.log("draw the shape"); 
   }
-  
-  const calculateArea = ()=>{
-      
+  calculateArea(){
+   console.log("area is area"); 
+      return 1;
   }
-  
 }
- export default drawShape;
- export default calculateArea;
-
 // export class using module.exports
