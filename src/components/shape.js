@@ -1,6 +1,7 @@
 // declare class
 
-class Shape{
+
+module.exports = class Shape{
     constructor(color){
        this.color=color===undefined?"blue":color;
     }
@@ -14,4 +15,3 @@ class Shape{
   }
 }
 // export class using module.exports
-module.exports Shape;
